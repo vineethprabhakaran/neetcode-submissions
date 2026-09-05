@@ -25,7 +25,6 @@ class Solution {
     public TreeNode dfs(int[] preorder, int[] inorder, int limit) {
 
         if(preIdx >= preorder.length) {return null;}
-
         if(inorder[inIdx] == limit){
             inIdx++;
             return null;
